@@ -42,6 +42,7 @@
 
 .b1 {
     position: absolute;
+    z-index: -1;
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -53,6 +54,7 @@
 
 .b2 {
     position: absolute;
+    z-index: -1;
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -64,22 +66,24 @@
 
 .b3 {
     position: absolute;
+    z-index: -1;
     height: 250px;
     width: 250px;
     border-radius: 50%;
     background-color: rgb(118, 113, 201);
-    opacity: 0.5;
+    opacity: 0.6;
     top: 30%;
     right: 65%;
 }
 
 .b4 {
     position: absolute;
+    z-index: -1;
     height: 300px;
     width: 300px;
     border-radius: 50%;
     background-color: rgb(107, 183, 245);
-    opacity: 0.5;
+    opacity: 0.6;
     top: 20%;
     right: 75%;
 }

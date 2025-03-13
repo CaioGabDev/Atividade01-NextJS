@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container p {
+    font-size: 0.75rem;
+}
+
+.login {
+    height: 40vh;
+    width: 50vh;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.login h3 {
+    font-size: 0.9rem;
+}
+
+.cadastro {
+    border: 0px;
+    background: none;
+    color: blue;
+}
+
+.button {
+    width: 450px;
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(15, 10, 107) 0%, rgba(21,21,147,1) 35%, rgba(55,55,182,1) 57%, rgba(0,212,255,1) 100%);
+}
+
+.button:hover {
+    transform: scale(105%);
+    transition: all 0.3s ease-in;
+}
+
+@media (max-width: 425px) {
+    .container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .login {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .button {
+        width: 80%;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .login {
+        width: 70%;
+        height: auto;
+    }
+
+    .button {
+        width: 60%;
+        height: 4vh;
+    }
+}

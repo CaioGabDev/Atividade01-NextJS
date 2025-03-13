@@ -5,6 +5,7 @@
     border-radius: 10px;
     background-color: rgb(83, 83, 83);
     color: #fff;
+    text-align: center;
 }
 
 .input:hover {
