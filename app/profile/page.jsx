@@ -1,4 +1,4 @@
-import styles from './profile.css';
+import './profile.css';
 import Card from '../../components/Card';
 
 export default function Initial() {
