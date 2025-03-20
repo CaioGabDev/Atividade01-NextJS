@@ -13,11 +13,12 @@ export default function Initial() {
             <Card title={"Descrição"} text={"Desenvolvedor Full Stack"} />
             <Card title={"Descrição"} text={"Desenvolvedor Banco de dados"} />
             <Card title={"Linguagens trabalhadas"} image={<div className="skillsContainer"
-                  style={{ display: "flex", gap: "10px", width: "270px", height:"80px" }}
+                  style={{ display: "flex", gap: "10px", width: "350px", height:"80px" }}
                 >
                         <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"/>
                         <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"/>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"></img>
                 </div>}/>
             </div>
             <div className="b1"></div>
