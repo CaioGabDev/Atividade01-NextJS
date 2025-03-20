@@ -12,13 +12,13 @@ export default function Initial() {
             <Card title={"Descrição"} text={"Olá meu nome é Caio, tenho 17 anos, no momento estou cursando Desenvolvimento de sistema no Senai Valinhos."} />
             <Card title={"Descrição"} text={"Desenvolvedor Full Stack"} />
             <Card title={"Descrição"} text={"Desenvolvedor Banco de dados"} />
-            <Card title={"Descrição"} text={<div
-                  className="skillsContainer"
-                  style={{ display: "flex", gap: "10px", width: "100px", height:"100px" }}
+            <Card title={"Linguagens trabalhadas"} image={<div className="skillsContainer"
+                  style={{ display: "flex", gap: "10px", width: "270px", height:"80px" }}
                 >
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"/>
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"/>
-                </div>} />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"/>
+                </div>}/>
             </div>
             <div className="b1"></div>
             <div className="b2"></div>
